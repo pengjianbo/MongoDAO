@@ -1,6 +1,16 @@
 # MongoDao
 是一个mongodb使用封装库
 
+# Maven
+```xml
+<dependency>
+    <groupId>cn.finalteam</groupId>
+    <artifactId>mongodao</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+```
+
+
 # 配置
 ## 数据连接配置
 ```java
@@ -48,7 +58,7 @@ public class TeacherDao extends MongoDao<Teacher> {
 
 ```
 
-#CRUD
+# CRUD操作
 ## 插入
 
 ```java
